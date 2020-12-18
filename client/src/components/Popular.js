@@ -89,7 +89,7 @@ class Popular extends Component{
       
                           <ListGroupItem tag="a" href="#">
                             <div>
-                                <img src={imagepath} height="200px" width="220px" />
+                                
                             </div>
                             <strong>{description}</strong>  <br/>                          
                             {price}€ &nbsp; &nbsp;&nbsp;&nbsp;
@@ -121,7 +121,7 @@ class Popular extends Component{
       
                           <ListGroupItem tag="a" href="#">
                             <div>
-                                <img src={imagepath} height="200px" width="220px" />
+                                
                             </div>
                             <strong>{description}</strong>  <br/>                          
                             {price}€ &nbsp; &nbsp;&nbsp;&nbsp;

@@ -185,7 +185,7 @@ class ProductList extends Component{
                   <div class="container"> 
                   <div class="row row-cols-2 row-cols-lg-4 gx-0 g-lg-0" style = {{paddingBottom:"30px"}} >
                  <div class="col-6">
-                 <div class="p-0  bg-light"> <img src={imagepath}  style = {{width: "230px", height:"230px",textAlign:"center", marginTop: "7px", marginBottom: "10px", paddingLeft: "16px" }}/> <br/> </div>
+                 <div class="p-0  bg-light">  <br/> </div>
                </div>
                   <div class="row-6">
                     <div class="p-3 bg-light" style = {{fontWeight: "bold"}}>
