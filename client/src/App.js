@@ -22,7 +22,7 @@ import store from './store';
 function Routes(){
   return(
   <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="/" component={Home} />
           
   </Switch>
   )

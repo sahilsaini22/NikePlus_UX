@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 function Routes(){
   return(
   <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="/" component={App} />
           
   </Switch>
   )
@@ -20,10 +20,11 @@ ReactDOM.render(
    
 
     <BrowserRouter>
-    <Switch>
-          <Route path="/home" component={App} />
+    <Switch>          
           <Route path="/browse" component={Home} />
           <Route path="/detail" component={Detail} />
+          <Route path="/" component={App} />
+          
           
     </Switch>
     </BrowserRouter>,

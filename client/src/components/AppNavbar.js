@@ -43,7 +43,7 @@ class AppNavbar extends Component{
             
             
             console.log('hitting')
-            return  <Redirect  to="/home" />
+            return  <Redirect  to="/" />
         
      }
 
@@ -55,8 +55,7 @@ class AppNavbar extends Component{
     const { isAuthenticated, user } = this.props.auth;
 
     const authLinks = (
-        <Fragment>
-            
+        <Fragment>            
             <NavItem>   
                 <Logout/>
             </NavItem>   
@@ -88,11 +87,11 @@ class AppNavbar extends Component{
             
                 <Container>
                     <NavbarBrand hred="/">
-                    <NavLink href="http://localhost:3000/home">                    
+                    <NavLink href="/">                    
                         <font color="orange">NikePlus</font>
                         </NavLink>
                     </NavbarBrand>
-                    <NavLink href="http://localhost:3000/browse" className="ml-auto" style = {{paddingRight : "70%"}}>
+                    <NavLink href="/browse" className="ml-auto" style = {{paddingRight : "70%"}}>
                         <font color="orange">Browse Products</font>
                         </NavLink>
                     <NavbarToggler onClick={this.toggle} /> 
